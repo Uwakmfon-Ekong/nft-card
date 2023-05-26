@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background: hsl(216, 50%, 16%);
+    width: 350px;
+    height:fit-content;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.equilibrium{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: url('images/image-equilibrium.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+.equilibrium .eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+ .equilibrium:hover {
+    background-blend-mode: overlay;
+    background-color: rgba(127, 255, 212, 0.564);
+    cursor: pointer;
+}
+
+.equilibrium:hover .eye {
+    visibility: visible;
+}
+
+
+h3:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.image-avatar{
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5rem;
+}
+.image{
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+h3{
+    color:  hsl(0, 0%, 100%);
+}
+.text{
+    padding: 1.5rem;
+}
+.equilibrium-text{
+    color: hsl(215, 51%, 70%);
+    padding-top: 1rem;
+}
+.eth{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+.eth-text{
+    padding: 0 0.5rem;
+}
+.days{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+.days p{
+    padding: 0 0.5rem;
+}
+.figures{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+hr{
+    border: 0.5px solid  hsl(215, 32%, 27%);
+    width: 85%;
+    margin-left: 1.5rem;
+    margin-bottom:1rem;
+}
+.footer{
+    display:flex ;
+    padding-bottom: 1.5rem;
+}
+span{
+    color: hsl(0, 0%, 100%);
+    padding: 0.1rem;
+}
+span:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.creation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    color: hsl(215, 51%, 70%);
+}
