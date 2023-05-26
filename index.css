@@ -23,7 +23,7 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    background: url('image-equilibrium.jpg');
+    background: url(image-equilibrium.jpg);
     background-position: center;
     background-size: contain;
 }
